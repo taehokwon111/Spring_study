@@ -3,6 +3,7 @@ package test.example.demo_test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import test.example.demo_test.repository.MemberRepository;
 import test.example.demo_test.repository.JdbcMemberRepository;
 import test.example.demo_test.repository.MemberRepository;
 import test.example.demo_test.repository.MemoryMemberRepository;
